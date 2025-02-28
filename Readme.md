@@ -83,10 +83,11 @@ print(f"{age} is now a float: {type(age)}")
 - a function that prompts the user to enter data which are returned as a string
 
 ```py
-bigness = input("how big?: ")
-age = int(input("how old?: "))
+print("Rectangle Area Calculator")
+width = float(input("Enter width: "))
+height = float(input("Enter height: "))
 
-age = age + 1
+area = width * height
 
-print(f"bigness is {bigness} and age is {age}. added object age by 1: {age}")
+print (f"Area is {area}")
 ```
